@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words Widget</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="widget">
+        <input type="text" name="sentence" id="sentence" placeholder="please enter sentence">
+        <input type="submit" id="submit" value="Submit">
+        <div class="check-box">
+            <input type="checkbox" name="show" id="show">
+            <label for="show">Hide words with less than 5 characters</label>
+        </div>
+        <p class="sentence"></p>
+        <p class="word-length"></p>
+        <section class="latest-sentences">
+            
+        </section>
+    </section>
+    <script src="words.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
